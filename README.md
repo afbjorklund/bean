@@ -41,6 +41,17 @@ Software:
 - `buildkitd`
 - `nerdctl`
 
+Docker:
+
+`nerdctl` is a Docker-compatible CLI for contai**nerd**.  🤓
+
+nerdctl is a non-core sub-project of CNCF's [containerd](https://containerd.io/).
+
+```console
+# nerdctl build -t foo .
+# nerdctl run -it --rm foo
+```
+
 Toolbox:
 
 The regular image does **not** have a package manager,
