@@ -6,6 +6,8 @@ Creating a boot ISO with containerd/buildkitd, for lima.
 
 Lima:
 
+Lima launches Linux virtual machines, using [QEMU](https://www.qemu.org/).
+
 > An image has to satisfy the following requirements:
 >
 > - systemd or OpenRC
