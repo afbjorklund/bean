@@ -64,6 +64,10 @@ That makes it possible to install `apk` packages.
 
 ---
 
+qemu
+
+![buildroot booting](assets/buildroot-booting.png)
+
 pstree
 
 ```text
