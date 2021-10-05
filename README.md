@@ -66,6 +66,16 @@ That makes it possible to install `apk` packages.
 
 Based on [CoreOS Toolbox](https://github.com/coreos/toolbox), but using nerdctl.
 
+Design:
+
+This OS follows a layered "three images" approach:
+
+1) Base OS, based on musl/busybox (like [Alpine](https://alpinelinux.org/))
+
+2) "boot2nerdctl", adds containerd and buildkitd
+
+3) Adding support for `python3` and `cloud-init`
+
 ---
 
 qemu
