@@ -62,6 +62,10 @@ but it is possible to install a toolbox container.
 The default `toolbox` uses the `alpine` distribution.
 That makes it possible to install `apk` packages.
 
+`2.7M	/var/lib/toolbox/alpine_latest.tar`
+
+Based on [CoreOS Toolbox](https://github.com/coreos/toolbox), but using nerdctl.
+
 ---
 
 qemu
