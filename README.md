@@ -94,6 +94,18 @@ init-+-buildkitd---5*[{buildkitd}]
      `-udhcpc
 ```
 
+```console
+$ limactl shell buildroot sudo nerdctl version
+Client:
+ Version:	0.12.0
+ Git commit:	<unknown>
+
+Server:
+ containerd:
+  Version:	1.4.9
+  GitCommit:
+```
+
 The download is around 100 MB, with all batteries included.
 
 ```text
