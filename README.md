@@ -101,7 +101,7 @@ $ limactl shell buildroot free -m
               total        used        free      shared  buff/cache   available
 Mem:           3942          47        3761           3         133        3837
 Swap:             0           0           0
-$ df -h /
+$ limactl shell buildroot df -h /
 Filesystem                Size      Used Available Use% Mounted on
 /dev/root                96.9G    269.4M     92.6G   0% /
 $ limactl shell buildroot sudo nerdctl version
