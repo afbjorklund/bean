@@ -89,8 +89,11 @@ init-+-buildkitd---5*[{buildkitd}]
      |-containerd---7*[{containerd}]
      |-klogd
      |-sshd
-     |-supervise-daemo---sh---pstree
+     |-sshd---sshd---sshd-+-bash---pstree
+     |                    `-2*[sshfs---3*[{sshfs}]]
+     |-supervise-daemo---lima-guestagent---3*[{lima-guestagent}]
      |-syslogd
+     |-udevd
      `-udhcpc
 ```
 
