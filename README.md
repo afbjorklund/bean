@@ -85,12 +85,14 @@ qemu
 pstree
 
 ```text
-init-+-buildkitd---5*[{buildkitd}]
+init-+-acpid
+     |-buildkitd---5*[{buildkitd}]
      |-containerd---7*[{containerd}]
      |-klogd
      |-sshd---sshd---sshd-+-bash---pstree
      |                    `-2*[sshfs---3*[{sshfs}]]
      |-supervise-daemo---lima-guestagent---3*[{lima-guestagent}]
+     |-2*[supervise-daemo---getty]
      |-syslogd
      |-udevd
      `-udhcpc
