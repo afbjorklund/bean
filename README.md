@@ -119,6 +119,10 @@ Server:
   GitCommit:
 ```
 
+---
+
+Building all the required software is done using [Buildroot](https://buildroot.org/).
+
 The download is around 100 MB, with all batteries included.
 
 ```text
@@ -129,6 +133,10 @@ See <https://github.com/afbjorklund/buildroot4containers/tree/lima>
 
 ---
 
+There is currently no public release of Bean OS available.
+
 Written by Anders F Björklund <https://github.com/afbjorklund>
+
+---
 
 Green Beans image credit: Designed by macrovector / [Freepik](http://www.freepik.com)
