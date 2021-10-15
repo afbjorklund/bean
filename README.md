@@ -125,7 +125,7 @@ The download is around 100 MB, with all batteries included.
 98M	output/disk.img.gz
 ```
 
-See <https://github.com/afbjorklund/buildroot4containers>
+See <https://github.com/afbjorklund/buildroot4containers/tree/lima>
 
 ---
 
